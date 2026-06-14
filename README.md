@@ -1,1 +1,1 @@
-MERN stack notes app
+MERN stack note website
