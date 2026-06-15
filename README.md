@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Your API will be running at `http://localhost:5000` 🟢
+Your API will be running at `http://localhost:5001` 🟢
 
 ---
 
