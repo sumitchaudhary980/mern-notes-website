@@ -8,16 +8,14 @@
 
 ---
 
-## 🌟 What You'll Get
+## 🌟 About the Website
 
 - 🧱 **Full-Stack with MERN** — MongoDB, Express, React, and Node all in one project
 - ✨ **Full CRUD** — Create, update, and delete notes with a title & description
 - 🛠️ **REST API** — Build and test a fully functional backend from scratch
 - ⚙️ **Rate Limiting** — Powered by Upstash Redis, explained in a beginner-friendly way
 - 🚀 **Responsive UI** — Looks great on any screen size
-- 🌐 **Learn the Basics** — HTTP methods, status codes, and SQL vs NoSQL explained
-- 📦 **Deploy It!** — Step-by-step deployment guide so you can show it off on your resume
-- 📚 **Beginner Friendly** — No prior experience needed, we've got you covered!
+
 
 ---
 
