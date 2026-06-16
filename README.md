@@ -4,7 +4,7 @@
   A beginner-friendly full-stack note-taking app — create, update, and delete notes with ease! 🎉
 </p>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+![Demo App](/frontend/public/websiteimage.png)
 
 ---
 
