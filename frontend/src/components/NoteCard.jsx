@@ -15,9 +15,9 @@ const NoteCard = ({ note, setNotes }) => {
       text: "This action cannot be undone.",
       icon: "warning",
       showCancelButton: true,
+      confirmButtonText: "Delete",
+      cancelButtonText: "Cancel",
       confirmButtonColor: "#ef4444",
-      cancelButtonColor: "#6b7280",
-      confirmButtonText: "Yes, delete it",
       background: "var(--fallback-b1,oklch(var(--b1)))",
       color: "var(--fallback-bc,oklch(var(--bc)))",
     });
@@ -26,7 +26,7 @@ const NoteCard = ({ note, setNotes }) => {
 
     try {
       await api.delete(`/notes/${id}`);
-      setNotes((prev) => prev.filter((n) => n._id !== id));
+      setNotes((prev) => prev.filter((n) => n._id !== id)); //get rid of the deleted one
       toast.success("Note deleted successfully");
     } catch (error) {
       toast.error("Failed to delete note");
